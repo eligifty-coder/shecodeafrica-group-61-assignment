@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>SheCode Africa Mentee task - Promise</title>
+</head>
+<body>
+   <script>
+      delay = (ms)=>{
+      let promise = new Promise((resolve,error)=>
+         setTimeout(resolve,ms)
+         )
+         return promise;
+      }
+      delay(3000).then(()=>alert("runs after 3 seconds"));
+   </script>
+</body>
+</html>
